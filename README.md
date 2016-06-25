@@ -1,2 +1,2 @@
 # MisterMisterMan
-ttbbey = tend to be better every day
+ttbbed = tend to be better every day

@@ -1,0 +1,5 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="400" height="260">
+    <path d="M200,0 l130,250 z" stroke-width="15" stroke="#06D66A" fill="none" />
+    <path d="M200,0 l-130,250 z" stroke-width="15" stroke="#06D66A" fill="none" />
+    <path d="M50,250 l300,0 z" stroke-width="10" stroke="#06D66A" fill="none" />
+</svg>

@@ -1,0 +1,28 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="280" height="250">
+
+    <!-- MAST -->
+    <path d="M140,0 l0,190 z" stroke-width="6" stroke="#663D29" fill="none"/>
+
+    <!-- LOOKOUT -->
+    <path d="M140,50 l20,0 l-5,20 l-30,0 l-5,-20 z" stroke-width="2" stroke="#663D29" fill="#8F5538"/>
+
+    <!-- CANVAS -->
+    <!-- CANVAS LEFT -->
+    <path d="M130,80 l-25,0 a -25,35 0 0 0 -25,35 a -10,40 0 0 1 -10,40 l60,0 z"
+          stroke-width="1" stroke="#A89E76" fill="#F2E4AA"/>
+    <!-- CANVAS RIGHT -->
+    <path d="M150,80 l60,0 a -10,40 0 0 0 -10,40 a -25,35 0 0 1 -25,35 l-25,0 z"
+          stroke-width="1" stroke="#A89E76" fill="#F2E4AA"/>
+    <!-- CANVAS TOP CONNECT -->
+    <path d="M130,85 l20,0 z" stroke-width="2" stroke="#A89E76" fill="none"/>
+    <!-- CANVAS BOTTOM CONNECT -->
+    <path d="M130,150 l20,0 z" stroke-width="2" stroke="#A89E76" fill="none"/>
+
+    <!-- SHIP -->
+    <path d="M20,170 l50,0 a 85,20 0 0 0 85,20 a 5,-10 0 0 0 5,-10 l30,0
+    a 10,-20 0 0 0 10,-20 l50,0 a -20,40 0 0 1 -20,40 a -10,25 0 0 0 -10,25
+    a -80,15 0 0 1 -80,15 a -75,-20 0 0 1 -75,-20 a -20,-30 0 0 0 -20,-30
+    a -5,-10 0 0 1 -5,-10 a -15,-5 0 0 0 -15,-5 a -5,-5 0 0 1 -5,-5 z
+    " stroke-width="1" stroke="#663D29" fill="#8F5538"/>
+
+</svg>

@@ -1,0 +1,61 @@
+<!--
+Capital = absolute
+lowerCase = relative
+M = MoveTo
+L = LineTo
+H = HorizontalLineTo
+V = VerticalLineTo
+C = CurveTo
+S = SmoothCurveTo
+Q = QuadraticBezierCurve
+T = SmoothQuadraticBezierCurve
+A = EllipticArc
+Z = ColsePath
+-->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="160" height="140">
+
+    <defs>
+        <style type="text/css"><![CDATA[
+      rect {
+        fill: rgb(200,200,200);
+      }
+      path {
+        fill:none;
+        stroke:rgb(200,200,200);
+        stroke-width:20px;
+      }
+      circle {
+        fill: rgb(200,200,200);
+      }
+    ]]></style>
+    </defs>
+
+    <!-- TEND -->
+    <rect height="80" width="20" x="0" y="0" rx="10" ry="10"/>
+
+    <!-- TO -->
+    <rect height="40" width="20" x="20" y="60" rx="10" ry="10"/>
+    <circle r="10" cx="30" cy="70"/>
+    <circle r="10" cx="30" cy="90"/>
+
+    <!-- BE -->
+    <rect height="40" width="20" x="40" y="40" rx="10" ry="10"/>
+    <circle r="10" cx="50" cy="70"/>
+    <circle r="10" cx="50" cy="50"/>
+
+    <!-- BETTER -->
+    <circle r="10" cx="70" cy="70"/>
+    <path d="M 70,70 l0,20 l20,0 A45,45 0 0 1 118,102 A45 45 0 0 1 130,130 l20,0"/>
+    <circle r="10" cx="150" cy="130"/>
+
+    <!-- EVERY -->
+    <circle r="10" cx="90" cy="70"/>
+    <path d="M 90,70 l0,-20 A 20,20 0 0 1 105,30 A 15,15 0 0 1 125,42 A 10,10 0 0 1 112,52"/>
+    <circle r="10" cx="112" cy="52"/>
+
+    <!-- DAY -->
+    <circle r="10" cx="110" cy="70"/>
+    <path d="M 110,70 A45,45 0 0 1 138,82 A45 45 0 0 1 150,110"/>
+    <circle r="10" cx="150" cy="110"/>
+
+</svg>
